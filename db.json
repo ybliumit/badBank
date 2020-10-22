@@ -1,0 +1,11 @@
+{
+  "accounts": [
+    {
+      "name": "",
+      "email": "",
+      "balance": 0,
+      "password": "",
+      "transactions": []
+    }
+  ]
+}
