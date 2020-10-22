@@ -6,8 +6,9 @@ const low     = require('lowdb');
 const fs      = require('lowdb/adapters/FileSync');
 const adapter = new fs('db.json');
 const db      = low(adapter);
-//const cors = require('cors');
+const cors = require('cors');
 
+app.use(cors());
 // setup directory used to serve static files
 app.use(express.static('public'));
 //app.use(cors());
